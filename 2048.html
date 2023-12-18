@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>2048</title>
+	<meta name="description" content="Join the numbers and get to the 2048 tile!">
+	<link href="./2048_files/clear-sans.css" rel="stylesheet" as="style">
+	<link href="./2048_files/main.css" rel="stylesheet" as="style">
+</head>
+
+<body>
+	<div class="container" id="container">
+		<div class="heading">
+			<h1 class="title">2048</h1>
+			<div class="scores-container">
+				<div class="score-container">44<div class="score-addition">+44</div>
+				</div>
+				<div class="best-container">2776</div>
+			</div>
+		</div>
+		<div class="above-game">
+			<p class="game-intro">Join the tiles, get to <strong>2048!</strong><br><a href="javascript:void(0)"
+					class="how-to-play-link">How to play →</a></p><a class="restart-button">New Game</a>
+		</div>
+		<div class="game-container">
+			<div class="game-message">
+				<p></p>
+				<div class="lower"><a class="keep-playing-button">Keep going</a>
+					<a class="retry-button">Try again</a>
+				</div>
+			</div>
+			<div class="grid-container">
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+				</div>
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+				</div>
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+				</div>
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+				</div>
+			</div>
+			<div class="tile-container">
+				<div class="tile tile-8 tile-position-1-4 tile-new">
+					<div class="tile-inner">8</div>
+				</div>
+				<div class="tile tile-4 tile-position-2-2 tile-new">
+					<div class="tile-inner">4</div>
+				</div>
+				<div class="tile tile-4 tile-position-2-4 tile-new">
+					<div class="tile-inner">4</div>
+				</div>
+				<div class="tile tile-4 tile-position-3-2 tile-new">
+					<div class="tile-inner">4</div>
+				</div>
+				<div class="tile tile-4 tile-position-3-3 tile-new">
+					<div class="tile-inner">4</div>
+				</div>
+				<div class="tile tile-8 tile-position-3-4 tile-new">
+					<div class="tile-inner">8</div>
+				</div>
+				<div class="tile tile-2 tile-position-4-2 tile-new">
+					<div class="tile-inner">2</div>
+				</div>
+				<div class="tile tile-2 tile-position-4-3 tile-new">
+					<div class="tile-inner">2</div>
+				</div>
+				<div class="tile tile-4 tile-position-4-4 tile-new">
+					<div class="tile-inner">4</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<script src="./2048_files/index.js"></script>
+</body>
+
+</html>
