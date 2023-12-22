@@ -417,7 +417,7 @@ function runApplication() {
     }),
     (GameManager.prototype.actuate = function () {
         this.storageManager.getBestScore() < this.score && this.storageManager.setBestScore(this.score),
-            this.over ? this.storageManager.clearGameState() : this.storageManager.setGameState(this.serialize()),
+            this.storageManager.setGameState(this.serialize()),
             this.actuator.actuate(this.grid, { score: this.score, over: this.over, won: this.won, bestScore: this.storageManager.getBestScore(), terminated: this.isGameTerminated() });
     }),
     (GameManager.prototype.serialize = function () {
